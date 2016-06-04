@@ -6,6 +6,6 @@ public class CustomStandardHost extends StandardHost {
 
 	public CustomStandardHost() {
 		super();
-		this.setConfigClass("de.m3y3r.catalina.authenticator.BearerTokenAuthenticator");
+		this.setConfigClass("de.m3y3r.catalina.startup.CustomContextConfig");
 	}
 }
